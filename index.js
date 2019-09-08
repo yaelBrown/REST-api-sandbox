@@ -6,13 +6,7 @@ const mongoose = require("mongoose");
 // connect to db
 mongoose.connect("mongodb://test:testuser1@ds045511.mlab.com:45511/restsandbox", {
   useNewUrlParser: true
-}, (error) => {
-  if (error) {
-    console.log(error);
-  } else {
-    console.log("connected to database");
-  }
-});
+}, (error) => (error) ? console.log(error) : console.log("connected to database"));
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
