@@ -1,0 +1,22 @@
+{
+  "name": "rest-api-sandbox",
+  "version": "1.0.0",
+  "description": "REST API that communicates to mongodb server hosted on mlab.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaelBrown/REST-api-sandbox.git"
+  },
+  "author": "Yael Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yaelBrown/REST-api-sandbox/issues"
+  },
+  "homepage": "https://github.com/yaelBrown/REST-api-sandbox#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
